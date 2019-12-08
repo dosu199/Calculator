@@ -35,7 +35,6 @@ window.onload = () => {
         }
         catch (err) {
             display.innerHTML = "";
-
         }
     });
 
@@ -48,6 +47,4 @@ window.onload = () => {
     clear.addEventListener("click", (e) => {
         display.innerHTML = "";
     });
-
-
 };
